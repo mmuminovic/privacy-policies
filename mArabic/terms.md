@@ -1,6 +1,6 @@
 # mArabic Terms of Use
 
-**Effective date:** [DATE]
+**Effective date:** 26.09.2026.
 
 These Terms of Use ("Terms") are an agreement between you and Muhamed Muminovic ("we", "us") about your use of the mArabic mobile app ("mArabic", "the app"). By downloading or using the app, you agree to these Terms. If you do not agree, do not use the app.
 
