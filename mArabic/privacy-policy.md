@@ -1,217 +1,128 @@
-# Privacy Policy for mArabic - Language Learning App
+# mArabic Privacy Policy
 
-**Last Updated:** January 18, 2026
+**Effective date:** 26.09.2026.
 
-## Introduction
+This policy explains what information the mArabic app ("mArabic", "the app", "we", "us") collects, why we collect it, and what choices you have. mArabic is operated by Muhamed Muminovic, Serbia. If you have questions, contact us at muminovic.muhamed01@gmail.com.
 
-Welcome to mArabic. We are committed to protecting your privacy and ensuring you have a positive experience while using our Arabic language learning application ("App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.
+## 1. Summary
 
-By using mArabic, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with the terms of this Privacy Policy, please do not use the App.
+- You can use mArabic without an account. Your progress is then stored only on your device.
+- If you sign in with Google or Apple, we store your account and your learning progress on our own server so you can continue on another device.
+- To buy Premium, you must sign in. Payments are handled by the App Store or Google Play. We never see your card details.
+- We use Firebase Analytics and Crashlytics (Google) to understand how the app is used and to fix crashes. We do not use advertising identifiers, and we do not sell your data or use it for ads.
+- You can delete your account and its data at any time from **Profile → Account → Delete account**.
 
-## Information We Collect
+## 2. Information we collect
 
-### Information You Provide
+### 2.1 Information stored on your device
 
-**Account Information:**
-- Display name or username (optional)
-- Language preference settings
-- Learning goals and preferences
+The app stores your learning progress, settings (such as app language and notification preference) and a queue of usage events on your device. This data stays on your device unless you sign in, as described below. Uninstalling the app removes it.
 
-**Learning Progress Data:**
-- Completed lessons and exercises
-- Test scores and quiz results
-- XP (experience points) and level progression
-- Achievement unlocks
-- Daily streak information
-- Vocabulary words learned
-- Spaced repetition review data
+### 2.2 Account information (only if you sign in)
 
-### Automatically Collected Information
+When you sign in with **Google** or **Apple**, we receive from that provider:
 
-**Device Information:**
-- Device type and model
-- Operating system version (iOS/Android)
-- App version
-- Unique device identifiers
+- a unique account identifier,
+- your email address (with Apple, this may be a private relay address if you choose "Hide My Email"),
+- your name, if the provider shares it.
 
-**Usage Data:**
-- App usage patterns and frequency
-- Features accessed and time spent in the app
-- Lesson completion rates
-- Error logs and crash reports
+We do not receive your Google or Apple password.
 
-**Analytics Data:**
-We use Firebase Analytics to collect anonymous usage statistics to improve our App, including:
-- Session duration and frequency
-- Feature usage patterns
-- User engagement metrics
-- Performance data
+### 2.3 Learning progress (only if you sign in)
 
-## Permissions We Request
+When you are signed in, your progress is synced to our server. This includes completed lessons, the current lesson, test results, points, streaks, achievements and similar learning data.
 
-### Microphone Access
-We request access to your device's microphone to enable pronunciation practice and speaking exercises. Audio recorded during these exercises is:
-- Processed locally on your device
-- Not transmitted to our servers
-- Not stored permanently
-- Used only for immediate feedback on pronunciation
+### 2.4 Purchases
 
-You can deny microphone access, but pronunciation features will not be available.
+If you buy Premium, the purchase is processed by Apple (App Store) or Google (Google Play). We use **RevenueCat** to check whether your subscription is active. RevenueCat receives your mArabic account identifier and information about your purchases (product, date, renewal and cancellation status, store country). We do not receive or store your payment card details.
 
-### Storage Access
-The App stores your learning progress and preferences locally on your device using secure storage mechanisms.
+### 2.5 Usage events
 
-### Notifications
-We request permission to send you push notifications for:
-- Daily learning reminders
-- Streak warnings (when your daily streak is about to break)
-- Achievement celebrations
-- Milestone notifications
-- Inactivity reminders
+The app records events about how it is used, for example: app opened, lesson started or completed, test completed, paywall viewed, purchase started or completed, sign-in started or completed, setting changed, notification opened, and app errors. Each event may include the platform (iOS or Android), app version, a random session identifier and, if you are signed in, your account identifier. Events do not include the text you type. For example, for a dictionary search we record only the length of the query and the number of results, not the search itself.
 
-You can disable notifications at any time through your device settings.
+These events are sent to:
 
-## How We Use Your Information
+- **our own server**, where they are kept for up to 180 days and then deleted, and
+- **Google Firebase Analytics**, which also collects standard device and app information, such as device model, operating system version, app instance ID, and approximate location derived from your IP address. See [Google's privacy policy](https://policies.google.com/privacy).
 
-We use the collected information for the following purposes:
+### 2.6 Crash reports
 
-**To Provide and Maintain the App:**
-- Track your learning progress and achievements
-- Personalize your learning experience
-- Implement the gamification system (XP, levels, streaks)
-- Enable spaced repetition learning algorithms
-- Sync your progress across sessions
+We use **Firebase Crashlytics** to collect crash and error reports. These include device model, operating system version, app version, the state of the app at the time of the crash, and, if you are signed in, your account identifier. They do not include your email or learning content.
 
-**To Improve the App:**
-- Analyze usage patterns to enhance features
-- Identify and fix bugs and technical issues
-- Optimize app performance
-- Develop new features based on user behavior
+### 2.7 Push notifications
 
-**To Communicate With You:**
-- Send learning reminders and motivational notifications
-- Provide customer support
-- Respond to your inquiries and feedback
+If you allow notifications, we store your device's push token (from Apple Push Notification service or Firebase Cloud Messaging), together with your platform, app language and account identifier if you are signed in, so we can send you reminders and announcements. You can turn notifications off at any time in the app or in your device settings.
 
-## Data Storage and Security
+## 3. How we use information
 
-### Local Storage
-Most of your data is stored locally on your device using AsyncStorage, including:
-- Learning progress and XP
-- Completed lessons and test scores
-- Achievement unlocks
-- User preferences and settings
-- Vocabulary flashcards and review data
+We use the information above to:
 
-### Cloud Storage
-We use Firebase services for:
-- Anonymous analytics data
-- Crash reporting and error logs
+- provide the app and keep your progress in sync across devices,
+- provide and verify Premium purchases,
+- send reminders and notifications you have allowed,
+- understand which features are used so we can improve the app,
+- find and fix crashes and errors,
+- protect the service against abuse and meet legal obligations.
 
-### Security Measures
-We implement industry-standard security measures to protect your data:
-- Encrypted data transmission
-- Secure local storage
-- No sensitive personal information collection
-- Regular security updates
+Where the GDPR or similar law applies, our legal bases are: performance of our contract with you (account, sync, Premium), our legitimate interests (analytics, crash reporting, security), your consent (push notifications), and compliance with legal obligations.
 
-However, no method of transmission over the internet or electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your information, we cannot guarantee absolute security.
+## 4. Who we share information with
 
-## Data Sharing and Disclosure
+We do not sell your personal information. We share it only with service providers that help us run the app:
 
-### We Do Not Sell Your Data
-We do not sell, trade, or rent your personal information to third parties.
+| Provider | Purpose |
+|---|---|
+| Google (Sign-In, Firebase Analytics, Firebase Crashlytics, Firebase Cloud Messaging) | Sign-in, analytics, crash reporting, notifications on Android |
+| Apple (Sign in with Apple, Apple Push Notification service, App Store) | Sign-in, notifications on iOS, payments |
+| Google Play | Payments on Android |
+| RevenueCat | Managing subscription status |
+| Personal hosting | Hosting our server and database on personal machine in Novi Pazar, Serbia |
 
-### Third-Party Service Providers
-We use the following third-party services that may collect data:
+We may also disclose information if required by law, or to protect the rights and safety of our users or of mArabic.
 
-**Firebase (Google LLC):**
-- Firebase Analytics for anonymous usage statistics
-- Firebase Crashlytics for error reporting
-- Privacy Policy: https://firebase.google.com/support/privacy
+Some of these providers process data outside your country, including in the United States. Where required, these transfers rely on appropriate safeguards such as the European Commission's Standard Contractual Clauses.
 
-**Expo Platform:**
-- App distribution and updates
-- Privacy Policy: https://expo.dev/privacy
+## 5. How long we keep information
 
-These service providers have access only to aggregated, anonymized data necessary to perform their functions and are obligated not to disclose or use it for other purposes.
+- **Account and progress:** until you delete your account.
+- **Usage events on our server:** up to 180 days.
+- **Push tokens:** until you delete your account, turn notifications off, or the token stops being valid.
+- **Firebase and RevenueCat data:** according to those providers' retention settings and policies.
+- **Purchase records:** Apple, Google and RevenueCat may keep them longer to meet their own legal and tax obligations.
 
-### Legal Requirements
-We may disclose your information if required to do so by law or in response to valid requests by public authorities (e.g., court orders or government agencies).
+## 6. Deleting your account
 
-## Children's Privacy
+You can delete your account in the app under **Profile → Account → Delete account**. This permanently deletes:
 
-Our App is designed to be family-friendly and suitable for all ages. We do not knowingly collect personally identifiable information from children under 13 years of age. We collect only minimal, non-personal data necessary for app functionality.
+- your account and sign-in,
+- your synced progress (progress on the device is reset as well),
+- your Premium status saved with your account,
+- your push notification registrations on all devices,
+- your in-app activity history (usage events) on our server.
 
-If you are a parent or guardian and believe your child has provided personal information to us, please contact us so we can delete such information.
+If you signed in with Apple, we also ask Apple to revoke the app's access to your Apple ID.
 
-## Offline Functionality
+**Deleting your account does not cancel an App Store or Google Play subscription.** Cancel it first in your App Store or Google Play subscription settings.
 
-mArabic is designed to work offline. All learning content (vocabulary, grammar, dialogues, exercises) is stored locally on your device, allowing you to learn without an internet connection. Your progress is saved locally and no data is transmitted while offline.
+You can also ask us to delete your data by writing to muminovic.muhamed01@gmail.com
 
-## Data Retention
+## 7. Your rights
 
-We retain your data for as long as necessary to provide you with the App's services. You can delete your local data at any time by:
-- Clearing the app's data through your device settings
-- Uninstalling the application
+Depending on where you live, you may have the right to access, correct, delete or export your personal data, to object to or restrict certain processing, and to withdraw consent. To use these rights, contact us at muminovic.muhamed01@gmail.com. If you are in the EU/EEA or the UK, you also have the right to complain to your local data protection authority.
 
-Analytics data is retained according to Firebase's data retention policies (typically 2-14 months).
+## 8. Children
 
-## Your Rights and Choices
+mArabic is intended for a general audience and is not directed at children under 13 (or the minimum age required in your country). We do not knowingly collect personal information from children below that age without parental consent. If you believe a child has given us personal information, contact us at muminovic.muhamed01@gmail.com and we will delete it.
 
-You have the following rights regarding your data:
+## 9. Security
 
-**Access and Update:**
-- View your learning progress, achievements, and statistics within the App
-- Update your language preferences and settings at any time
+We use encrypted connections (HTTPS) between the app and our server, restrict access to our database, and keep only the data we need. No system is completely secure, but we work to protect your information.
 
-**Delete:**
-- Clear your local progress data through the app settings
-- Uninstall the app to remove all local data
+## 10. Changes to this policy
 
-**Opt-Out:**
-- Disable notifications through device settings
-- Deny microphone access through device permissions
+We may update this policy from time to time. When we do, we will change the effective date above and, for significant changes, let you know in the app.
 
-**Data Portability:**
-- Your data is stored locally on your device
-- No centralized account required
+## 11. Contact
 
-## International Data Transfers
-
-Your data is primarily stored locally on your device. Anonymous analytics data may be transferred to and processed in countries where Firebase servers are located. These countries may have data protection laws different from your country. By using the App, you consent to such transfers.
-
-## Changes to This Privacy Policy
-
-We may update our Privacy Policy from time to time. We will notify you of any changes by:
-- Posting the new Privacy Policy on this page
-- Updating the "Last Updated" date
-- Providing an in-app notification for significant changes
-
-You are advised to review this Privacy Policy periodically for any changes. Changes are effective when posted.
-
-## Contact Us
-
-If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:
-
-**Email:** muminovic.muhamed01@gmail.com
-**App Name:** mArabic - Language Learning App
-**Version:** 1.0.0
-
-## Consent
-
-By using mArabic, you acknowledge that you have read this Privacy Policy and agree to its terms and conditions.
-
----
-
-## Summary of Key Points
-
-✅ **Minimal Data Collection:** We collect only what's necessary for app functionality
-✅ **Local Storage:** Your progress is saved on your device, not on external servers
-✅ **No Selling of Data:** We never sell your information to third parties
-✅ **Offline Capable:** Learn Arabic without internet; no data transmitted offline
-✅ **Optional Permissions:** Microphone is only for pronunciation practice
-✅ **Anonymous Analytics:** Only aggregated, non-personal usage data for improvements
-✅ **Your Control:** Delete your data anytime by clearing app data or uninstalling
-✅ **No Ads:** We don't use advertising networks that track your behavior
-✅ **Family Friendly:** Safe for all ages with no collection of children's personal data
+Muhamed Muminovic
+muminovic.muhamed01@gmail.com
