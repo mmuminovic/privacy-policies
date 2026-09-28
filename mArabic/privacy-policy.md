@@ -1,128 +1,222 @@
-# mArabic Privacy Policy
+# Privacy Policy for mArabic - Language Learning App
 
-**Effective date:** 26.09.2026.
+**Last Updated:** September 28, 2026
 
-This policy explains what information the mArabic app ("mArabic", "the app", "we", "us") collects, why we collect it, and what choices you have. mArabic is operated by Muhamed Muminovic, Serbia. If you have questions, contact us at muminovic.muhamed01@gmail.com.
+## Introduction
 
-## 1. Summary
+Welcome to mArabic. mArabic is developed by Muhamed Muminović ("we", "us"). This Privacy Policy explains what information the mArabic mobile application ("App") collects, how it is used and shared, how long it is kept, and the choices you have — including how to delete your account.
 
-- You can use mArabic without an account. Your progress is then stored only on your device.
-- If you sign in with Google or Apple, we store your account and your learning progress on our own server so you can continue on another device.
-- To buy Premium, you must sign in. Payments are handled by the App Store or Google Play. We never see your card details.
-- We use Firebase Analytics and Crashlytics (Google) to understand how the app is used and to fix crashes. We do not use advertising identifiers, and we do not sell your data or use it for ads.
-- You can delete your account and its data at any time from **Profile → Account → Delete account**.
+By using mArabic, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree, please do not use the App.
 
-## 2. Information we collect
+**Quick link:** [Delete your mArabic account](#delete-account)
 
-### 2.1 Information stored on your device
+## Information We Collect
 
-The app stores your learning progress, settings (such as app language and notification preference) and a queue of usage events on your device. This data stays on your device unless you sign in, as described below. Uninstalling the app removes it.
+### Information Stored on Your Device
 
-### 2.2 Account information (only if you sign in)
+You can use mArabic without an account. Without one, your learning data stays on your device:
+- Completed lessons, sections and exercises
+- Test scores and quiz results
+- XP (experience points), rank and level progression
+- Achievements, daily streaks and daily challenge results
+- Vocabulary words learned
+- Your chosen app language and notification preference
 
-When you sign in with **Google** or **Apple**, we receive from that provider:
+### Information You Provide When You Sign In (Optional)
 
-- a unique account identifier,
-- your email address (with Apple, this may be a private relay address if you choose "Hide My Email"),
-- your name, if the provider shares it.
+You can sign in with Google or with Apple to back up your progress and continue on another device. When you do, we receive and store:
+- Your name and email address, as provided by Google or Apple (if you use Apple's "Hide My Email", we receive a private relay address instead)
+- An account identifier
+- Your learning progress, so it can be synced between your devices
 
-We do not receive your Google or Apple password.
+### Purchases
 
-### 2.3 Learning progress (only if you sign in)
+If you buy mArabic Premium, the purchase is handled by the App Store or Google Play. We never receive your payment card details. We use RevenueCat to verify purchases and to know whether Premium is active; it receives the purchase record and an identifier for your account (or an anonymous identifier if you are not signed in). We store whether Premium is active on your account and until when.
 
-When you are signed in, your progress is synced to our server. This includes completed lessons, the current lesson, test results, points, streaks, achievements and similar learning data.
+### Automatically Collected Information
 
-### 2.4 Purchases
+**Usage and device information:**
+- How you use the App: screens opened, lessons started and completed, tests taken, and similar in-app activity
+- Device type and model, operating system and version, app version, language and approximate region
+- App and device identifiers, including your device's advertising identifier where available (see [Advertising](#advertising))
 
-If you buy Premium, the purchase is processed by Apple (App Store) or Google (Google Play). We use **RevenueCat** to check whether your subscription is active. RevenueCat receives your mArabic account identifier and information about your purchases (product, date, renewal and cancellation status, store country). We do not receive or store your payment card details.
+**Crash reports:**
+- Technical information about crashes and errors, such as stack traces and device state, used to find and fix problems
 
-### 2.5 Usage events
+**In-app activity sent to our server:**
+The App records in-app activity (for example "lesson completed" or "test passed") to help us understand how the course is used. If you are signed in, it is sent to our server together with your account identifier. If you are not signed in, it stays on your device and is only sent if you later sign in.
 
-The app records events about how it is used, for example: app opened, lesson started or completed, test completed, paywall viewed, purchase started or completed, sign-in started or completed, setting changed, notification opened, and app errors. Each event may include the platform (iOS or Android), app version, a random session identifier and, if you are signed in, your account identifier. Events do not include the text you type. For example, for a dictionary search we record only the length of the query and the number of results, not the search itself.
+## Permissions We Request
 
-These events are sent to:
+### Notifications
+The App asks for permission to send push notifications, such as learning reminders and news about the App. Notifications are only sent to signed-in users who allowed them. For this we store your device's push token, platform, app version and language on our server. You can turn notifications off in the App's profile or in your device settings at any time.
 
-- **our own server**, where they are kept for up to 180 days and then deleted, and
-- **Google Firebase Analytics**, which also collects standard device and app information, such as device model, operating system version, app instance ID, and approximate location derived from your IP address. See [Google's privacy policy](https://policies.google.com/privacy).
+### App Tracking Transparency (iOS)
+On iOS, the App asks for your permission before your device's advertising identifier can be used for personalised ads. You can refuse, and you can change your choice at any time in your device's settings.
 
-### 2.6 Crash reports
+The App does not use your microphone, camera, contacts, photos or precise location.
 
-We use **Firebase Crashlytics** to collect crash and error reports. These include device model, operating system version, app version, the state of the app at the time of the crash, and, if you are signed in, your account identifier. They do not include your email or learning content.
+## How We Use Your Information
 
-### 2.7 Push notifications
+**To provide the App:**
+- Keep track of your progress, achievements, XP and streaks
+- Sync your progress across your devices when you are signed in
+- Unlock Premium content and remove ads when you have Premium
+- Send notifications you have allowed
 
-If you allow notifications, we store your device's push token (from Apple Push Notification service or Firebase Cloud Messaging), together with your platform, app language and account identifier if you are signed in, so we can send you reminders and announcements. You can turn notifications off at any time in the app or in your device settings.
+**To improve the App:**
+- Understand which lessons and features are used, and where learners get stuck
+- Find and fix crashes and technical problems
 
-## 3. How we use information
+**To show ads in the free version:** see [Advertising](#advertising).
 
-We use the information above to:
+**To communicate with you:** reply to your emails and support requests.
 
-- provide the app and keep your progress in sync across devices,
-- provide and verify Premium purchases,
-- send reminders and notifications you have allowed,
-- understand which features are used so we can improve the app,
-- find and fix crashes and errors,
-- protect the service against abuse and meet legal obligations.
+### Legal Bases (EU/EEA, UK and Switzerland)
+- **Performance of a contract:** providing the App, your account, synced progress and Premium
+- **Consent:** personalised advertising and the use of your advertising identifier, and push notifications
+- **Legitimate interests:** analytics and crash reporting to keep the App working and improve it, and fraud prevention
+- **Legal obligations:** keeping purchase records as required by law
 
-Where the GDPR or similar law applies, our legal bases are: performance of our contract with you (account, sync, Premium), our legitimate interests (analytics, crash reporting, security), your consent (push notifications), and compliance with legal obligations.
+<a id="advertising"></a>
+## Advertising
 
-## 4. Who we share information with
+The free version of mArabic shows ads from Google AdMob. Premium removes all ads.
+- **Which ads:** banner ads on some screens, a full-screen ad at most occasionally when you finish a section (vocabulary, grammar, an exercise round or a passed test), and at most one full-screen ad a day when you open the App.
+- **What Google collects:** your IP address (used to estimate a general location), device information, your advertising identifier (IDFA on iOS, Advertising ID on Android) where available, and how you interact with ads. It is used to show, measure and limit ads and to prevent fraud.
+- **Your consent:** in the EU/EEA, the UK and Switzerland, the App shows Google's consent form before any ad is requested. Ads are personalised only if you agree; otherwise they are non-personalised. You can change your choice in the consent form.
+- **Your controls:** you can reset or limit your advertising identifier in your device settings.
+- How Google uses this data: https://policies.google.com/technologies/partner-sites
 
-We do not sell your personal information. We share it only with service providers that help us run the app:
+## Data Storage and Security
 
-| Provider | Purpose |
-|---|---|
-| Google (Sign-In, Firebase Analytics, Firebase Crashlytics, Firebase Cloud Messaging) | Sign-in, analytics, crash reporting, notifications on Android |
-| Apple (Sign in with Apple, Apple Push Notification service, App Store) | Sign-in, notifications on iOS, payments |
-| Google Play | Payments on Android |
-| RevenueCat | Managing subscription status |
-| Personal hosting | Hosting our server and database on personal machine in Novi Pazar, Serbia |
+### On Your Device
+Your progress and preferences are stored on your device. This lets you learn without an account and without an internet connection.
 
-We may also disclose information if required by law, or to protect the rights and safety of our users or of mArabic.
+### On Our Server
+If you sign in, your account, synced progress, Premium status, push notification registrations and in-app activity are stored on a server we operate. Access is restricted to your own account for the App, and to us for support and administration.
 
-Some of these providers process data outside your country, including in the United States. Where required, these transfers rely on appropriate safeguards such as the European Commission's Standard Contractual Clauses.
+### Security Measures
+- All data is sent over encrypted connections (TLS)
+- Access to stored data is restricted by account
+- We do not collect passwords: sign-in is handled by Google and Apple
 
-## 5. How long we keep information
+No method of transmission over the internet or electronic storage is 100% secure. While we use commercially acceptable means to protect your information, we cannot guarantee absolute security.
 
-- **Account and progress:** until you delete your account.
-- **Usage events on our server:** up to 180 days.
-- **Push tokens:** until you delete your account, turn notifications off, or the token stops being valid.
-- **Firebase and RevenueCat data:** according to those providers' retention settings and policies.
-- **Purchase records:** Apple, Google and RevenueCat may keep them longer to meet their own legal and tax obligations.
+## Data Sharing and Disclosure
 
-## 6. Deleting your account
+### We Do Not Sell Your Data
+We do not sell, trade or rent your personal information.
 
-You can delete your account in the app under **Profile → Account → Delete account**. This permanently deletes:
+### Service Providers
+We use the following services to run the App. They process data for the purposes described here:
 
-- your account and sign-in,
-- your synced progress (progress on the device is reset as well),
-- your Premium status saved with your account,
-- your push notification registrations on all devices,
-- your in-app activity history (usage events) on our server.
+**Google (Google LLC):**
+- Google AdMob: ads in the free version (see [Advertising](#advertising))
+- Firebase Analytics: usage statistics; when you are signed in, linked to your account identifier
+- Firebase Crashlytics: crash and error reports; when you are signed in, linked to your account identifier
+- Firebase Cloud Messaging: delivering push notifications on Android
+- Google Sign-In: signing in with Google
+- Privacy Policy: https://policies.google.com/privacy
 
-If you signed in with Apple, we also ask Apple to revoke the app's access to your Apple ID.
+**Apple (Apple Inc.):**
+- Sign in with Apple, Apple Push Notification service and App Store purchases
+- Privacy Policy: https://www.apple.com/legal/privacy/
 
-**Deleting your account does not cancel an App Store or Google Play subscription.** Cancel it first in your App Store or Google Play subscription settings.
+**RevenueCat (RevenueCat, Inc.):**
+- Verifying purchases and managing Premium status
+- Privacy Policy: https://www.revenuecat.com/privacy
 
-You can also ask us to delete your data by writing to muminovic.muhamed01@gmail.com
+### Legal Requirements
+We may disclose your information if required to do so by law or in response to valid requests by public authorities (for example, court orders or government agencies).
 
-## 7. Your rights
+## Children's Privacy
 
-Depending on where you live, you may have the right to access, correct, delete or export your personal data, to object to or restrict certain processing, and to withdraw consent. To use these rights, contact us at muminovic.muhamed01@gmail.com. If you are in the EU/EEA or the UK, you also have the right to complain to your local data protection authority.
+mArabic is intended for a general audience and is not directed at children under 13. We do not knowingly collect personal information from children under 13. Signing in is optional, and the App can be used without providing any personal information.
 
-## 8. Children
+If you are a parent or guardian and believe your child has provided personal information to us, please contact us and we will delete it.
 
-mArabic is intended for a general audience and is not directed at children under 13 (or the minimum age required in your country). We do not knowingly collect personal information from children below that age without parental consent. If you believe a child has given us personal information, contact us at muminovic.muhamed01@gmail.com and we will delete it.
+## Offline Functionality
 
-## 9. Security
+All learning content (vocabulary, grammar, dialogues and exercises) is stored on your device, so you can learn without an internet connection. Syncing, ads, notifications and analytics need a connection; while offline, nothing is sent, and in-app activity waits on your device until it can be sent.
 
-We use encrypted connections (HTTPS) between the app and our server, restrict access to our database, and keep only the data we need. No system is completely secure, but we work to protect your information.
+## Data Retention
 
-## 10. Changes to this policy
+- **Data on your device:** until you reset your progress in the App or uninstall it
+- **Your account, synced progress, Premium status and push notification registrations:** until you delete your account
+- **In-app activity on our server:** up to 180 days
+- **Notification delivery records:** up to 90 days
+- **Purchase records:** as long as required by law for financial and tax purposes
+- **Analytics, crash reports and advertising data held by Google:** according to Google's retention policies
 
-We may update this policy from time to time. When we do, we will change the effective date above and, for significant changes, let you know in the app.
+<a id="delete-account"></a>
+## Delete Your mArabic Account
 
-## 11. Contact
+You can delete your mArabic account and its data at any time.
 
-Muhamed Muminovic
-muminovic.muhamed01@gmail.com
+**In the App**
+Open mArabic → Profile → Account → Delete account, and confirm. The account is deleted immediately.
+
+**Without the App**
+Email **muminovic.muhamed01@gmail.com** from the address you signed in with (Google or Apple), with the subject "Delete my mArabic account". We delete the account within 30 days and confirm by email.
+
+**What is deleted**
+- Your account and sign-in (Google or Apple); for Sign in with Apple, we also revoke the App's access to your Apple ID
+- Your synced learning progress
+- Your Premium status saved with your account
+- Your push notification registrations
+- Your in-app activity history on our server
+
+**What is kept**
+- Purchase records from the App Store or Google Play, kept as financial records for as long as the law requires
+- The history of notifications we sent, with any link to you removed
+- A record that the deletion happened, containing only an anonymous identifier
+
+Deleting your account does not cancel a subscription. To stop being charged, cancel it first in your App Store or Google Play subscription settings.
+
+Deleting your account also resets the progress stored on the device you delete it from. Progress on other devices where you are not signed in stays there until you reset it or uninstall the App.
+
+## Your Rights and Choices
+
+**Access and correction:** you can see your progress, achievements and statistics in the App. To get a copy of the data stored with your account, or to correct it, contact us.
+
+**Deletion:** delete your account as described in [Delete Your mArabic Account](#delete-account), reset your progress in the App's profile, or uninstall the App to remove data stored on your device.
+
+**Advertising:** change your ad consent in the consent form, refuse or change tracking permission on iOS, reset or limit your advertising identifier in your device settings, or buy Premium to remove ads.
+
+**Notifications:** turn them off in the App's profile or in your device settings.
+
+**Your rights in the EU/EEA, UK and Switzerland:** you have the right to access, correct, delete and port your personal data, to object to or restrict its processing, and to withdraw consent at any time. You also have the right to lodge a complaint with your local data protection authority.
+
+## International Data Transfers
+
+Our service providers, including Google, Apple and RevenueCat, may process data in countries other than yours, including the United States. Where required, these transfers rely on appropriate safeguards such as the European Commission's Standard Contractual Clauses.
+
+## Changes to This Privacy Policy
+
+We may update this Privacy Policy from time to time. We will notify you of changes by:
+- Posting the new Privacy Policy on this page
+- Updating the "Last Updated" date
+- Informing you in the App about significant changes
+
+Changes are effective when posted.
+
+## Contact Us
+
+If you have any questions, concerns or requests about this Privacy Policy or your data, contact us at:
+
+**Email:** muminovic.muhamed01@gmail.com
+**App Name:** mArabic - Language Learning App
+**Version:** 2.0.0
+
+---
+
+## Summary of Key Points
+
+✅ **No Account Needed:** Learn without signing in; your progress stays on your device
+✅ **Optional Sign-In:** Sign in with Google or Apple to back up and sync your progress
+✅ **No Selling of Data:** We never sell your information
+✅ **Ads with Consent:** The free version shows Google AdMob ads; personalised only with your consent, and Premium removes them
+✅ **Minimal Permissions:** Notifications only; no microphone, camera, contacts or location
+✅ **Offline Capable:** All lessons work without an internet connection
+✅ **Your Control:** Delete your account in the App or by email at any time
