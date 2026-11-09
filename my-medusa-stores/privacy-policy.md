@@ -17,7 +17,7 @@ Medusa server, using an API key that stays on your phone.
 ## 2. Who is responsible
 
 The app is published by **Muhamed Muminovic**, who is the controller of the limited data described in sections 6 and 7.
-Contact: **muminovic.muhamed01@gmail.com**.
+Contact: **muhamed@mmsdevelopment.com**.
 
 **Your customers' data.** Orders and customer records belong to your store, and you (the merchant) decide how they are used. You remain
 responsible for them towards your customers, including when you view them in this app. We do not receive this data and do not act on it.
