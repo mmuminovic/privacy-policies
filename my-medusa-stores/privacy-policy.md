@@ -24,32 +24,48 @@ responsible for them towards your customers, including when you view them in thi
 
 ## 3. Connecting a store
 
-You connect a store in one of two ways, and both go directly to the server address you enter:
-
-- **Signing in to Medusa Admin.** Your email and password are sent once to your own Medusa server. The app creates its own secret API key
-  there and does not keep the password. The key's name, visible in Medusa Admin, includes your phone's name (for example
-  "My Medusa Stores – Ana's iPhone"). The email is kept with the key on your phone, to sign the internal order notes you write.
-- **Pasting a secret API key** that you created yourself.
+You connect a store with its server address and a **secret API key** that you create yourself in Medusa Admin under *Settings → Secret
+API Keys*. The app never asks for your Medusa email or password. The key goes directly from your phone to the server address you enter,
+and nowhere else. If your server reports which admin account the key belongs to, the app keeps that email on your phone to sign the
+internal order notes you write.
 
 The app uses HTTPS unless you enter an address that starts with `http://`.
 
-The key gives whoever holds it admin access to your store, so it never goes anywhere except your store. You can revoke it at any time in
-Medusa Admin under *Settings → Secret API Keys*. The app then stops working with that store until you connect it again.
+The key gives whoever holds it admin access to your store. You can revoke it at any time in Medusa Admin under *Settings → Secret API
+Keys*. The app then stops working with that store until you connect it again.
+
+### Your responsibility for API keys and access
+
+You create, hold and control the API keys you use with the app, and you decide which store and which permissions they give access to.
+To protect them:
+
+- create a separate key for the app, so you can revoke it without affecting anything else;
+- keep your phone locked, up to date and free of untrusted software, and turn on App lock if others use it;
+- never share a key or enter it anywhere you do not trust, and do not connect over `http://`;
+- revoke a key in Medusa Admin at once if your phone is lost or you suspect the key has leaked, and when you stop using the app.
+
+We never receive your API keys or any other credential, so we cannot see, store, recover or revoke them for you. The keys are protected
+by your phone's secure storage and your own Medusa server; neither is under our control.
+
+**To the fullest extent permitted by applicable law, we are not liable for any loss or damage arising from the disclosure, leakage, theft
+or misuse of your API keys, tokens or other credentials, or from any access to your store made with them,** including where this results
+from a lost, stolen, shared or compromised device, malware, your device backups, your Medusa server or its hosting, the network you use,
+or your own handling of the keys. Nothing in this policy limits liability that cannot be limited by law.
 
 ## 4. Data stored on your device
 
 | Data | Purpose | Retention |
 | --- | --- | --- |
-| Secret API key and the sign-in email, if you signed in (iOS Keychain / Android Keystore) | Connect to your store, sign internal notes | Until you remove the store (see below) |
+| Secret API key, and the admin email if your server reports it (iOS Keychain / Android Keystore) | Connect to your store, sign internal notes | Until you remove the store (see below) |
 | Store details: name, address, currencies and your settings for it | Operate the app | Until you remove the store or uninstall |
 | Recently loaded orders, customers, products and figures (the app's own storage) | Open quickly and work offline | Replaced as data refreshes; deleted when you remove the store or uninstall |
 | Where the new-order check last stopped (the time and IDs of the newest orders seen) | Tell you only about new orders | Until you turn alerts off, remove the store or uninstall |
 | Snapshot of today's sales and open orders | Show the widgets | Until replaced, or until you uninstall |
 | Settings: language, theme, App lock, check interval, a random install ID | Operate the app | Until you uninstall |
 
-**Removing a store** in the app deletes its key and cached data from the phone. If the app created the key, it also tries to revoke it on
-your server. On iOS, the system can keep Keychain items after an app is uninstalled, so remove your stores in the app before uninstalling
-it, or revoke the key in Medusa Admin.
+**Removing a store** in the app deletes its key and cached data from the phone, but does **not** revoke the key on your server: revoke it
+in Medusa Admin. On iOS, the system can keep Keychain items after an app is uninstalled, so remove your stores in the app before
+uninstalling it, and revoke the key in Medusa Admin.
 
 **Device backups.** iCloud and Android backups may include the app's stored data, including cached customer and order data, according to
 your device settings.
