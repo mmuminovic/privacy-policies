@@ -11,12 +11,12 @@ Medusa server, using an API key that stays on your phone.
 - Free to use, with no account and no ads. We do not sell personal data or share it for advertising.
 - Your store data (orders, customers, products, sales) goes **only between your phone and your own Medusa server**. We never receive it.
 - Your API key is kept in your phone's secure storage and is sent only to your own store.
-- Data leaves your phone for two other purposes only: fetching exchange rates (section 6) and, when included in the app version you use,
-  usage analytics (section 7).
+- Data leaves your phone for three other purposes only: fetching exchange rates (section 6), usage analytics when included in the app
+  version you use (section 7), and push announcements if you turn them on (section 8).
 
 ## 2. Who is responsible
 
-The app is published by **Muhamed Muminovic**, who is the controller of the limited data described in sections 6 and 7.
+The app is published by **Muhamed Muminovic**, who is the controller of the limited data described in sections 6 to 8.
 Contact: **muhamed@mmsdevelopment.com**.
 
 **Your customers' data.** Orders and customer records belong to your store, and you (the merchant) decide how they are used. You remain
@@ -61,7 +61,7 @@ device passcode. The app only receives the yes/no result of that check, and neve
 
 | Permission | Why | Where the data goes |
 | --- | --- | --- |
-| Notifications | New-order alerts, and a notice if your store rejects its key | Created on your phone; no push service is used |
+| Notifications | New-order alerts and a notice if your store rejects its key (created on your phone, no push service involved); news and announcements if you turn them on (section 8) | See section 8 for announcements |
 | Camera | Take product photos and scan barcodes to find products | Photos you add go to your own store; barcodes are used on your phone only |
 | Photos | Choose product images | Only the photos you pick, to your own store |
 | Face ID / biometrics | App lock, if you turn it on | Checked by your phone's operating system |
@@ -85,37 +85,52 @@ fails.
   model, operating system version, language and approximate country. Events about connecting a store include its **web address (host name)**,
   so we can see which sites fail to connect.
 - Never sent: API keys, passwords, order or customer details, or product data. Full web addresses are reduced to the host name.
-- The data is not used for advertising.
-- The app currently has no switch to turn analytics off. You can ask us to delete data linked to your install (section 10).
+- The data is not used for advertising, and no advertising identifier is collected.
+- Turn it off at any time in *Settings → Share usage data*. You can also ask us to delete data linked to your install (section 11).
 - Google's privacy policy: https://policies.google.com/privacy
 
-## 8. Legal basis (EEA / UK users)
+## 8. News and announcements (optional)
 
-- Exchange rates and analytics: our legitimate interest in showing correct amounts and in keeping the app working and improving it.
+If you turn on *News and announcements* in Settings, we can send you occasional news, new features and offers by push. **It is off until you
+turn it on**, and turning it off stops them. New-order alerts do not use this and keep working either way.
+
+Pushes are managed through MMS Signal, a notification service we run ourselves, and delivered through Firebase Cloud Messaging (Google LLC,
+USA) and Apple Push Notification service (Apple Inc., USA).
+
+- Sent to MMS Signal: this phone's push token, a subscription ID, device model, platform, system and app version, language and region setting,
+  time zone, the number of stores you have connected, app sessions, and which announcements you received and opened.
+- Never sent: API keys, passwords, store names or addresses, order, customer or product data, your name or email.
+- We keep this while announcements are on. To have the data deleted, turn them off and email the address in section 2.
+
+## 9. Legal basis (EEA / UK users)
+
+- News and announcements: your consent, given by turning them on. You can withdraw it at any time with the same switch.
+- Exchange rates and analytics: our legitimate interest in showing correct amounts and in keeping the app working and improving it. You can
+  object to analytics at any time with the switch in Settings.
 - Everything else is processed only on your phone or between your phone and your own server, and is not collected by us.
 
-## 9. Sharing and transfers
+## 10. Sharing and transfers
 
-We do not sell personal data. Apart from your own store, data leaves your phone only as described in sections 6 and 7. These providers use
+We do not sell personal data. Apart from your own store, data leaves your phone only as described in sections 6 to 8. These providers use
 encrypted connections and may process data in the United States or other countries, under their own safeguards for international
 transfers (such as the EU Standard Contractual Clauses).
 
 We keep no store data, so we have none to share. Google keeps analytics data according to its own retention policies.
 
-## 10. Your rights and choices
+## 11. Your rights and choices
 
 - Remove a store, or revoke its key in Medusa Admin, at any time.
-- Turn off alerts, remove widgets, or withdraw camera, photo and notification access in your phone's settings.
+- Turn off alerts, announcements and usage data, remove widgets, or withdraw camera, photo and notification access in your phone's settings.
 - Depending on where you live, you may have the right to access, correct or delete data about you, object to processing and complain to
   your data protection authority.
-- To request deletion of analytics data, email the address in section 2 and include your install ID (the *Request data deletion* button in
+- To request deletion of analytics or announcement data, email the address in section 2 and include your install ID (the *Request data deletion* button in
   *Settings → Privacy and data* fills it in).
 
-## 11. Children
+## 12. Children
 
 The app is a tool for merchants. It is not directed at children under 13 and does not knowingly collect their data.
 
-## 12. Changes
+## 13. Changes
 
-We will update this page when the app's data practices change, for example if a future version adds paid plans or push notifications
+We will update this page when the app's data practices change, for example if a future version adds paid plans or sends new-order alerts
 through a server, and show the date above.
